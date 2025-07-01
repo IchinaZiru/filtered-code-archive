@@ -1,0 +1,4 @@
+File,Language,Line Comments,Block Comments,Total Comments,Total Lines,Comment Ratio (%)
+cpp/tinyxml2-11.0.0_tinyxml2.h,cpp,223,662,885,2384,37.12
+cpp/tinyxml2-11.0.0_xmltest.cpp,cpp,163,123,286,2773,10.31
+cpp/tinyxml2-11.0.0_tinyxml2.cpp,cpp,174,36,210,3020,6.95
