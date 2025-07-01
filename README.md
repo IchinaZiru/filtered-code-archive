@@ -21,9 +21,6 @@ This makes it easy to reuse, analyze, or build your own datasets from clean, wel
 - 🗂️ **Language-Wise Organization**  
   Automatically classifies source files by programming language — unsupported extensions are grouped under `other/`.
 
-- ♻️ **Clean Output Every Run**  
-  The output folder is refreshed each time to avoid mixing old files with new ones.
-
 - 🔗 **Merge Bundles**  
   Supports combining filtered files into single language-specific corpus files for training, analysis, or sharing.
 
