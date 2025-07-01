@@ -1,30 +1,42 @@
 # filtered-code-archive
 
-**filtered-code-archive** is a curated archive of medium-sized source code that has been **filtered, selected, and organized** by programming language using custom filter scripts built with **Google Colab**.
+**filtered-code-archive** は、Google Colab 上で構築したカスタムフィルタスクリプトを使い、  
+**ソースコードを言語別に分類・選別・整理した中規模コードアーカイブ** です。
 
-Each project’s source files are individually processed with **line-count and language filters** and grouped into language-specific folders.  
-This makes it easy to reuse, analyze, or build your own datasets from clean, well-organized code snippets.
+各プロジェクトのソースファイルは、**行数と拡張子による条件フィルタ** を通して整備され、  
+さらに各フォルダには **コメントアウト分析結果の CSV** も含まれています。  
+これにより、各ファイルのコメント行数、ブロックコメント量、総行数、コメント密度 (%) を  
+一目で把握でき、コード品質の把握や研究用途にすぐ活用できます。
 
-> 📦 **Purpose**  
-> This repository keeps project-specific, filtered source files safe and easy to manage — perfect for research, development, or creating language-wise code collections.
+> 📦 **目的**  
+> プロジェクトごとに整理されたフィルタ済みソースコードを安全に管理しつつ、  
+> コメントアウト情報も付与して、研究開発・データセット構築にすぐ使える形で提供します。
 
 ---
 
-## ✨ Features
+## ✨ 特徴
 
-- ⚙️ **Custom Filtering**  
-  Uses Google Colab notebooks and Python scripts to filter source files by line count and file extension.
+- ⚙️ **カスタムフィルタリング**  
+  Google Colab ノートブックと Python スクリプトを用いて、  
+  ソースファイルを行数と拡張子で条件抽出します。
 
-- 🔍 **Line Count Control**  
-  Keeps only medium-sized files (e.g., 800–2000 lines) to ensure balanced, manageable source code samples.
+- 🔍 **行数コントロール**  
+  中規模ソース(例:800～2000行)のみを対象にすることで、  
+  過度に小さい／大きいファイルを除外し、適度なスケールのコードだけを保存。
 
-- 🗂️ **Language-Wise Organization**  
-  Automatically classifies source files by programming language — unsupported extensions are grouped under `other/`.
+- 🗂️ **言語別フォルダ分け**  
+  プログラミング言語ごとに自動分類し、未対応の拡張子は `other/` にまとめます。
 
-- 🔗 **Merge Bundles**  
-  Supports combining filtered files into single language-specific corpus files for training, analysis, or sharing.
+- 📊 **コメントアウト分析**  
+  各プロジェクトフォルダには `comment_count_result.csv` などの  
+  コメントアウト率レポートを含めており、  
+  行コメント数・ブロックコメント行数・ソース全体行数・コメント率 (%) を一括把握可能です。
 
-- 🧩 **Project-Wise Separation**  
-  Manage multiple projects, each with its own filtered, organized source code archive.
+- 🔗 **マージ機能**  
+  言語別にまとめたコードを一括で学習・分析・共有用コーパスとして束ねることも可能。
+
+- 🧩 **プロジェクト単位での管理**  
+  複数のプロジェクトを個別にフィルタ・分析し、  
+  整理された形で安全にアーカイブ管理できます。
 
 ---
