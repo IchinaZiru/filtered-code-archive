@@ -1,5 +1,5 @@
 File,Language,Line Comments,Block Comments,Total Comments,Total Lines,Comment Ratio (%)
-cpp/squirrel3_squirrel_sqvm.cpp,cpp,56,1232,1288,1805,71.36
+cpp/squirrel3_squirrel_sqvm.cpp,cpp,56,4,60,1805,3.32
 cpp/squirrel3_squirrel_sqcompiler.cpp,cpp,48,34,82,1642,4.99
 cpp/squirrel3_squirrel_sqbaselib.cpp,cpp,21,3,24,1404,1.71
 cpp/squirrel3_squirrel_sqapi.cpp,cpp,10,3,13,1632,0.8
